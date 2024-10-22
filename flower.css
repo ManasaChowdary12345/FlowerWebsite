@@ -1,0 +1,158 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 10000px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    padding: 0px 10px;
+       
+}
+
+header p{
+   
+    padding: 0px 200px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: cursive;
+}
+header p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+header .navbar li{
+    font-weight: 600;
+    font-family: cursive ;
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+   
+    font-size: 30px;
+}
+header .navbar ul li a{ 
+   
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.home{
+ background: url('flower.png');
+ background-size: cover;
+ width: 100%;
+ min-height:70vh;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+  padding-top: 200px;
+}
+.home .text{
+    color: antiquewhite;
+
+}
+.home h1::first-letter{
+    font-size: 90px;
+    color: red;
+    font-family: cursive;
+}
+.home .text h1{
+    font-size: 2.6rem;
+    font-family: cursive;
+    letter-spacing: 1;
+}
+.home .text p{
+    margin-top: -15px;
+    font-size: 2rem;
+    color: black;
+    font-family: cursive;
+}
+.home .text button{
+    height: 40px;
+    width: 180px;
+    background-color: red;
+    border: none;
+    outline: none;
+    color: wheat;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px 20px;
+    margin-top: -15px;
+}
+.text button:hover{
+  
+    letter-spacing: 8px;
+    transition: 0.5s;
+}
+ h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: cursive;
+}
+ h2::first-letter{
+    color: red;
+    font-size: 70px;
+    font-family: cursive;
+}
+.about {
+    margin-top: 200px;
+}
+.about .images img{
+    float: right;
+    border: 2px solid black;
+    margin: 0 20px;
+}
+.about .images p{
+    font-family: cursive;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.shop img{
+    width: 280;
+    height: 260px;
+    border: 2px solid black;
+}
+    .shop .images{
+     
+        box-sizing: border-box;
+        padding: 2px 3px;
+       display: flex;
+       justify-content: center;
+       margin: 20px 30px;
+        width: 290;
+        display: inline-block;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 18px 0 rgba(0,0,0,0.12);
+    }  
+    .shop p{
+        text-align: center;
+        font-family: cursive;
+        font-size: 30px;
+    }
+    .shop img:hover{
+      opacity: 0.5;
+    }
+    header.sticky{
+        background: white;
+        padding: 2px 20px;
+        box-shadow: 0 8px 4px 0 rgba(0,0,0,0.3);
+        transition: 0.9s;
+    }
+         header.sticky .navbar li a{
+ 
+        color: #111;
+    
+    }
+    header.sticky .navbar li a:hover{
+        color:red;
+    }
+    header.sticky p{
+ 
+        color: #111;
+    
+    }
+    
+
+
